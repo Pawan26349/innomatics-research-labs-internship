@@ -104,7 +104,7 @@ st.markdown("<br>",unsafe_allow_html=True)
 st.markdown("<hr>",unsafe_allow_html=True)
 
 st.write("Month-year chart")
-graph=pd.DataFrame(np.random.randn(int(day),int(month)),columns=['year','month'])
+graph=pd.DataFrame(np.random.randn(int(days_in_month),int(2)),columns=['year','month'])
 st.line_chart(graph)
 
 st.markdown("<hr>",unsafe_allow_html=True)
